@@ -1,2 +1,5 @@
 /* CSS Document */
-
+div {
+  background-color: black;
+  width: 600px;
+}
