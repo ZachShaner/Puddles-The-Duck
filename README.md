@@ -1,7 +1,12 @@
-Puddles The Duck Tribute Page
-=============================
+<p align="center">
+  <a href="http://www.goducks.com/">
+    <img src="https://res.cloudinary.com/izpanda/image/upload/t_media_lib_thumb/v1499932200/Oregon_Transparent_Logo_opfgz2.png" width=140 height=140>
+  </a>
+</p>
 
-![Image of Puddles the Duck](https://res.cloudinary.com/izpanda/image/upload/t_media_lib_thumb/v1500242574/Puddles-Fight_aufx5o.png)
+
+Puddles The Duck Tribute Page
+============================
 
 Free Code Camp
 --------------
