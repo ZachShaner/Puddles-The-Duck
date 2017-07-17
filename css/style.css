@@ -39,7 +39,12 @@ table {
 }
 /* --------------------RESET STYLESHEET ABOVE-------------------- */
 
-
+.container{
+	/*width: 960px;
+	position: relative;
+	margin:0 auto;
+	line-height: 1.4em;*/
+}
 
 body {
   background-color: #54565B;
@@ -47,7 +52,7 @@ body {
 }
 
 .topNavIcon{
-	padding-top: 18px;
+	padding-top: 19px;
 	position: absolute;
 	left: 47.1%;
 	z-index: 200;
