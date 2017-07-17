@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head>
   <meta charset="utf-8"/>
   <title>Page Title</title>
@@ -8,4 +9,53 @@
 <body>
   
 </body>
+=======
+
+<head>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+  <meta charset="utf-8">
+  <title>Puddles the Duck</title>
+</head>
+
+<body>
+  <div class="container">
+  <canvas id="myCanvas" style="position: absolute; left: 46%;" width="150" height="150"></canvas>
+  <script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    var centerX = canvas.width / 2;
+    var centerY = canvas.height / 2;
+    var radius = 70;
+
+    context.beginPath();
+    context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+    context.fillStyle = '#A8A8AA';
+    context.fill();
+    context.lineWidth = 5;
+    context.strokeStyle = '#333';
+    context.stroke();
+  </script>
+  <img class="topNavIcon" src="img/Oregon-Logo.png" alt="Icon">
+  <div class="topNavBox">
+    <div style="position: absolute; left: 50%;">
+      <div style="position: relative; left: -50%;">
+        <ul class="topNavUL">
+          <li style="float:left"><a class="active" href="#home">Home</a></li>
+          <li style="float:left"><a href="#news">History</a></li>
+          <li style="float:right"><a href="#contact">About</a></li>
+          <li style="float:right"><a href="#about">Push Ups</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1>Puddles the Duck</h1>
+    <img src="img/Puddles-Fight.png" alt="Oregon Duck Main Logo">
+  </div>
+</div>
+</body>
+
+>>>>>>> add-nav-bar
 </html>
